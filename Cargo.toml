@@ -1,0 +1,10 @@
+[package]
+name = "ble_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+btleplug = { version = "0.10", features = ["serde"] }
+tokio = { version = "1", features = ["full"] }
+rand = "0.8.4"
+uuid = "1.11.0"
